@@ -1,0 +1,9 @@
+{
+  "name": "OrderAtCounter-Test",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "request": "2.27.0",
+    "should": "1.3.0"
+  }
+}
