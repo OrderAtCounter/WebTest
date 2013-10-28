@@ -2,8 +2,13 @@
   "name": "OrderAtCounter-WebTest",
   "version": "0.0.1",
   "private": true,
+  "scripts": {
+      "test": "mocha iOSRequests.js && mocha webRequests.js",
+      "start": "phantomjs ./screenshots/screenshot.js && node ./screenshots/uploadScreenshots.js"
+    },
   "dependencies": {
     "request" : "2.27.0",
-    "should" : "1.3.0"
+    "should" : "1.3.0",
+    "aws-sdk" : "1.6.0"
   }
 }
